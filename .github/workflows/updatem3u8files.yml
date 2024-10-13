@@ -14,8 +14,8 @@ jobs:
             - name: Set configuration variables
               run: |
                 git pull
-                git config --local user.email "action@github.com"
-                git config --local user.name "GitHub Action"
+                git config --local user.email "wuzhij@mail.com"
+                git config --local user.name "wzsvip"
             - name: Run shell script
               run: |
                 pwd
